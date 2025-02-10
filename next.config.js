@@ -2,8 +2,9 @@
 const nextConfig = {
   output: 'standalone',
   env: {
-    API_ENDPOINT: process.env.API_ENDPOINT,
+    PORT: process.env.PORT || 3000,
   }
 }
 
 module.exports = nextConfig
+
